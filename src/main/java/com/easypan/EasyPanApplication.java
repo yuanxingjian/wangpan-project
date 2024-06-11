@@ -28,12 +28,4 @@ public class EasyPanApplication {
         SpringApplication.run(EasyPanApplication.class, args);
     }
 
-//    @Bean
-//    @DependsOn({"applicationContextProvider"})
-//    MultipartConfigElement multipartConfigElement() {
-//        AppConfig appConfig = (AppConfig) ApplicationContextProvider.getBean("appConfig");
-//        MultipartConfigFactory factory = new MultipartConfigFactory();
-//        factory.setLocation(appConfig.getProjectFolder() + Constants.FILE_FOLDER_TEMP);
-//        return factory.createMultipartConfig();
-//    }
 }
